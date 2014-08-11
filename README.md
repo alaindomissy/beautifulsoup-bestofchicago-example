@@ -14,3 +14,11 @@ Adaptations have been made:
 - the target website used as an example has been modified since the original post was published.  
 -- the first website page processed now has different DOM structure: the section of interest within which the urls are searched for can no longer be recognized as a dl tag with \"boccat\" class. Instead we will here directly identify all the links of interests by taking advantage of the fact they can be recognized as div tags with a 'BestOfItem' class  
 -- the second tyoe of website pages processed also now has different DOM structure: the runners_up are no longer in a tag inside of the h2 tag. Instead we find them moving up to the parent of the h2 tag and looking at the first li tag within that  
+
+Setting up instructions:
+- full instructions are given if needed to setup Python, an interactive Interpreter, the BeautifulSoup and HTML parsing packages needed
+- these setting up instructions can be skipped if your setup is already done or if you prefer an alternative setup
+- the example is here presented using an ipython notebook,
+- the use of an virtualenv (with the wrapper) is also presented as away to install ipython and its dependencies, as well as the he BeautifulSoup and HTML parsing packages
+- the previous two methods (ipython,virtualenv) are optional; you may prefer to use a traditional python interpreter ; you may prefer to install all your packages in your global environement 
+- indications are given where to skip and jump if desired so you can focus directly on the core subject of this website data scraping example
