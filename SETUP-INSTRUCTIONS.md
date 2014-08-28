@@ -110,9 +110,9 @@ Run the tutorial
 
 * if you do not want to install ipython : 
 
-  * you can view a readonly version of the tutorial using `nbviewer`_.
+  * you can view a readonly version of the tutorial using nbviewer at  
 
-    `beautifulsoup-bestofchicago-example`_: beautifulsoup-bestofchicago-example
+    [ http://nbviewer.ipython.org/github/alaindomissy/beautifulsoup-bestofchicago-example/blob/master/beautifulsoup-bestofchicago-example.ipynb ]
 
   * read the instructions, copy paste the code into your python interpreter
   
