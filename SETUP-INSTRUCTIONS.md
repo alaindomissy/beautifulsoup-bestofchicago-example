@@ -1,8 +1,9 @@
 Setup Instructions
 ==================
 
-At a minimum minimum we're going to be using Python 2.7, BeautifulSoup, and html5lib. 
-Instructions follow to setup these as well as optional steps for a more advanced/friendly environmant
+At a minimum minimum we're going to be using Python 2.7, BeautifulSoup, and html5lib  
+Instructions are given to set these up  
+Additional optional steps are also provided for a more advanced and friendly environment if desired  
 
 Install Python
 --------------
