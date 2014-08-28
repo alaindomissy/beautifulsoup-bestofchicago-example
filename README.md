@@ -1,18 +1,21 @@
 beautifulsoup-bestofchicago-example
 ===================================
 
-# Introduction
+Introduction
+------------
 
 This workshop will be easier to follow if you have some familiarity with BeautifulSoup documentation or if you refer to it as you go: [http://beautiful-soup-4.readthedocs.org/en/latest]  
 
-# Acknowledgment
+Acknowledgment
+--------------
 
 This workshop is inspired from the following tutorial and Github Gist python script:  
 
 * [http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/#http://www.popsugar.com/Celebrities-Using-Instagram-21244293#opening-slide]  
 * [https://gist.github.com/gjreda/f3e6875f869779ec03db]  
 
-# Adaptations  
+Adaptations
+-----------
 
 The following adaptations have been made : 
 
@@ -21,7 +24,8 @@ The following adaptations have been made :
   * the first website page processed now has different DOM structure: the section of interest within which the urls are searched for can no longer be recognized as a dl tag with \"boccat\" class. Instead we will here directly identify all the links of interests by taking advantage of the fact they can be recognized as div tags with a 'BestOfItem' class  
   * the second tyoe of website pages processed also now has different DOM structure: the runners_up are no longer in a tag inside of the h2 tag. Instead we find them moving up to the parent of the h2 tag and looking at the first li tag within that  
 
-# Setup instructions
+Setup instructions
+------------------
 
 see SETUP_INSTRUCTIONS.md
 
