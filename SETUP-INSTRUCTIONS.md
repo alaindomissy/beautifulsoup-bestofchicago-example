@@ -1,10 +1,11 @@
-Setup Instructions: 
-=====================
+Setup Instructions
+==================
 
 At a minimum minimum we're going to be using Python 2.7, BeautifulSoup, and html5lib. 
 Instructions follow to setup these as well as optional steps for a more advanced/friendly environmant
 
-## Install Python
+Install Python
+--------------
 
 If you don't already have Python 2.7, you'll want to download the proper version for your OS here. 
 To check if you have Python 2.7, open up Terminal and type
@@ -26,7 +27,8 @@ sys.version_info
 //sys.version_info(major=2, minor=7, micro=3, releaselevel='final', serial=0)
 ```
 
-## Install python package and environment management  
+Install python package and environment management
+-------------------------------------------------
 
 Next, you'll need to install 2 libraries needed for scraping: BeautifulSoup and html5lib
 In order to do that we'll install and use pip, a python library installer.  
@@ -51,7 +53,8 @@ sudo easy_install pip
 We could already use pip to install the needed libraries permanently and globally on our computer: skip next step if you want to do that
 
 
-## Install virtualenvwrapper  
+Install virtualenvwrapper
+-------------------------
 
 SKIP THIS IF YOU DO NOT WANT TO USE VIRTUALENVS 
 
@@ -64,7 +67,8 @@ SKIP THIS IF YOU DO NOT WANT TO USE VIRTUALENVS
   mkproject beautifulsoup
   ```
   
-## Install 2 python libraries
+Install 2 python libraries
+--------------------------
 
 We are now ready to install BeautifulSoup and html5lib
 
@@ -80,7 +84,8 @@ pip install beautifulsoup4
 pip install html5lib
 ```
 
-## Install ipython 
+Install ipython 
+---------------
 
 SKIP THIS STEP IF YOU DO NOT WANT TO USE ipython
  
@@ -99,12 +104,17 @@ Start a notebook
 ipython notebook
 ```
 
-## Run the tutorial
+Run the tutorial
+----------------
 
 * if you do not want to install ipython : 
-  * view a readonly version of the notebook with nbviewer at: 
-    beautifulsoup-bestofchicago-example/blob/master/beautifulsoup-bestofchicago-example.ipynb 
+
+  * you can view a readonly version of the tutorial using `nbviewer`_.
+
+    `beautifulsoup-bestofchicago-example`_: beautifulsoup-bestofchicago-example
+
   * read the instructions, copy paste the code into your python interpreter
   
-* if you have installed ipython
+* if you have installed ipython :
+
   * run the ipython notebook beautifulsoup-bestofchicago-example.ipynb
