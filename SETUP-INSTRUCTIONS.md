@@ -102,11 +102,9 @@ ipython notebook
 ## Run the tutorial
 
 * if you do not want to install ipython : 
-  * view tbeautifulsoup-bestofchicago-example/blob/master/beautifulsoup-bestofchicago-example.ipynb 
+  * view a readonly version of the notebook with nbviewer at: 
+    beautifulsoup-bestofchicago-example/blob/master/beautifulsoup-bestofchicago-example.ipynb 
   * read the instructions, copy paste the code into your python interpreter
   
 * if you have installed ipython
-  * run the ipython notebook beautifulsoup-bestofchicago-example.ipynb 
-  
-
-START HERE IF YOU HAVE ALREADY PERFORMED YOUR PREFERRED SETUP FOR PYTHON,AN INTERACTIVE INTERPRETER AND THE beautifulsoup4,= AND html5lib PYTHON PACKAGES
+  * run the ipython notebook beautifulsoup-bestofchicago-example.ipynb
