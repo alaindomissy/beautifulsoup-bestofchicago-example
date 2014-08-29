@@ -115,4 +115,4 @@ Thanks !
 * Trey
 * Melanie
 * Saturday Pangea Workshop Crowd
-* etc etc
+* ... etc ...
