@@ -129,5 +129,5 @@ Thanks !
 * Chris
 * Trey
 * Melanie
-* Saturday Pangea Workshop Crowd
+* Saturday Pangea Workshop Crowd, SDPUG and PyLadies
 * ... etc ...
