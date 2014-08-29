@@ -119,7 +119,7 @@ https://github.com/alaindomissy/beautifulsoup-bestofchicago-example
 http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/#http://www.popsugar.com/Celebrities-Using-Instagram-21244293#opening-slide
 
 
-###Tery's CLI for finding-drm-free-audiobooks (USEFUL!)
+###Trey's CLI for finding-drm-free-audiobooks (USEFUL!)
 http://treyhunner.com/2014/05/cli-for-finding-drm-free-audiobooks/
 
 
