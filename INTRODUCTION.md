@@ -41,10 +41,25 @@ Similarities ?
 * Questions ?
 
 
-3048 meters examples
-------------------------------
+3048 meters view of code
+------------------------
 
+```
+# kitchen robot
+def make_soup(given_url):
+    html_page = urlopen(given_url).read()
+    return BeautifulSoup(html_page, "html5lib")
+ 
+# prepare a meal
+my_soup = make_soup( "http://www.messybutworthy.com/deep/andweird/bestof?key=sesameouvretoi&year=2010&cat=snakes")
 
+# dig up the good stuff
+list_of_interesting_items = my_soup ('li', class_="bestOfItem" )
+
+# collect the hidden gems
+list_of_wanted_urls = [eachitem.a['href'] for eachitem in list_of_interesting_items ]
+    
+```
 
 
 Three powerful features
