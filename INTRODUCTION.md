@@ -1,14 +1,14 @@
 Introduction to WebScraping and BeautifulSoup
-====================================
+=============================================
 
 http://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 What is it ?
---------------
+------------
 a Python library designed for quick turnaround of website-scraping projects
 
 Why use it ?
----------------
+------------
 * facilitate data access : unleash valuable data that was once locked up in poorly-designed websites
 
 * (semi-)automate /speed up data retrieval : repetitive  projects that would have taken hours take only minutes instead 
@@ -18,7 +18,7 @@ Why use it ?
   * does not guess/ clever forage for you
 
 How do you use it ?
---------------------------
+-------------------
 
 * give a URL to BeautifulSoup to parse
 
@@ -34,7 +34,7 @@ How do you use it ?
 
 
 Similarities ?
------------------
+--------------
 
 * Thoughts ?   jQuery and the DOM ?
 * Comments ?
@@ -63,7 +63,7 @@ list_of_wanted_urls = [eachitem.a['href'] for eachitem in list_of_interesting_it
 
 
 Three powerful features
---------------------------------
+-----------------------
 
 * few simple methods and Pythonic idioms for navigating, searching, and modifying a parse tree
   * don't need much code around provided syntax to build an application
